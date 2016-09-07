@@ -1,0 +1,19 @@
+{
+  "name": "Sojup",
+  "version": "0.0.0",
+  "description": "Sojupify any word at home!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sojup/sojup.github.io"
+  },
+  "author": "Presidjent ojf Sojup",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/sojup/sojup.github.io/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0"
+  }
+}

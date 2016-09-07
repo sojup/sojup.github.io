@@ -1,0 +1,25 @@
+doctype
+html
+    include include/header.jade
+    body
+        div(class="container-fluid")
+            include include/navbar.jade
+            script(src="js/index.js")
+            
+            img(width="100" src="Sojup.png")
+            div(class="page-header") 
+                h2 The official Sojup website
+            p
+                | Welcome to the official Sojup website, where you can get your words Sojupified in no time!
+                | Type in a word and press enter/click "Sojupify!" to find out what that word is Sojupified!
+            div(class="input-group col-lg-3 col-md-6 col-sm-8 col-xs-10")
+                span(class="input-group-addon") Word
+                input(class="form-control" id="word")
+            br
+            button(class="btn btn-sm btn-primary" id="Sojupify")
+                | Sojupify!
+                
+            h4(id="Sojupified")
+            div(id="error" class="text-danger")
+                
+            h3(id="loading")
