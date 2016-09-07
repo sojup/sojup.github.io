@@ -1,3 +1,2 @@
 # sojup.github.io
-Sojupify any word!  
-Coming soon
+Sojupify any word!
