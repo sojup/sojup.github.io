@@ -17,7 +17,7 @@ $(function()
     $("#Sojupify").click(function()
     {
         $("#error").text("")
-        var word = $("#word").val().lower();
+        var word = $("#word").val().toLowerCase();
         if (sojup[word] == undefined)
         {
             $("#error").text("Error - that word isn't in the Sojupifidictionary. If it should be, contact sojupinfo@gmail.com");
